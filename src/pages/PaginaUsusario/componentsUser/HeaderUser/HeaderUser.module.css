@@ -1,0 +1,41 @@
+.header {
+
+    
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #22394D;
+
+}
+.imagem {
+    width: 100%;
+    height: auto;
+    margin-left: 30px;    
+}
+.botoes {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.botoes button {
+    background-color: #CC353C;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    border: none;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+    width: 100px;
+}
+.botoes {
+    display: flex;
+    gap: 1rem;
+    margin-right: 10rem; /* Adicionando margem à direita para separar o botão "Sair" */
+}
+
+.botoes button:last-child {
+    margin-right: 1rem; /* Removendo a margem do último botão */
+}

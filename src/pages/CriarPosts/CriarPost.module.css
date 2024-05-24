@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #1A212A; /* Cor de fundo da página inteira */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #22394D; /* Cor de fundo do formulário */
+    width: 90%;
+    max-width: 500px;
+    border-radius: 20px;
+    padding: 20px;
+    box-sizing: border-box; /* Inclui o padding dentro da largura */
+    margin: 20px;
+}
+
+.titulo {
+    color: rgb(255, 243, 135);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.campo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 20px;
+    color: aliceblue;
+    width: 100%;
+}
+
+.campo input, .campo textarea, .campo select {
+    background-color: #1A212A;
+    color: aliceblue; /* Cor do texto branco */
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    height: 40px;
+    padding: 10px; /* Adiciona preenchimento interno */
+    width: 100%;
+    box-sizing: border-box; /* Inclui o padding dentro da largura */
+}
+
+.campo label {
+    color: aliceblue;
+    padding: 10px 0;
+    font-size: 16px;
+}
+
+textarea {
+    height: 100px;
+    resize: none; /* Impede que o usuário redimensione o textarea */
+}
+
+.botao {
+    margin-top: 30px;
+    background-color: #CC353C; /* Cor de fundo vermelha */
+    color: white; /* Cor do texto */
+    border: none; /* Remova a borda */
+    border-radius: 5px; /* Adicione bordas arredondadas */
+    padding: 10px 20px; /* Adicione preenchimento interno */
+    cursor: pointer; /* Altere o cursor ao passar */
+    text-align: center; /* Alinhe o texto ao centro */
+    outline: none; /* Remova o contorno */
+    width: 100%;
+}
+
+/* Estilos para o botão hover */
+.botao:hover {
+    background-color: #AF2E33; /* Cor de fundo vermelha mais escura quando hover */
+}
